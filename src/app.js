@@ -1,6 +1,7 @@
 const http = require('http');
 const express = require('express');
 const views = require('./routes/views');
+require('dotenv').config();
 
 const app = express();
 
